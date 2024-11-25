@@ -2,7 +2,7 @@
 
 NoteKeeper is a web application for managing notes and tasks efficiently. Built with React and Appwrite, it combines an intuitive interface with practical features to help users organize their day-to-day activities.
 
-![NoteKeeper Application Screenshot]![alt text](./src/assets/images/webapp-screenshot.png)
+![alt text](./src/assets/images/webapp-screenshot.png)
 
 ---
 
