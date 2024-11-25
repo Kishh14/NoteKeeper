@@ -7,7 +7,7 @@ import NoteInput from "./NoteInput";
 import Logo from "../../assets/images/logo.png";
 
 function Sidebar({ setNotes, notes, fetchNotes }) {
-  const noteColors = ["orange", "yellow", "black", "blue", "lightblue"];
+  const noteColors = ["orange", "yellow", "black", "dodgerBlue", "lightblue"];
   const [isFiltered, setIsFiltered] = useState(false);
 
   const [isModalOpen, setModalOpen] = useState(false);

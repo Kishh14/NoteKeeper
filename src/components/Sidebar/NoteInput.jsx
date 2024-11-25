@@ -110,7 +110,7 @@ function NoteInput({ handleCloseModal, setNotes }) {
         <div>
           <label className="block text-gray-700 font-medium">Note Color</label>
           <div className="flex gap-2 mt-2">
-            {["orange", "yellow", "black", "blue", "lightblue"].map((color) => (
+            {["orange", "yellow", "black", "dodgerBlue", "lightblue"].map((color) => (
               <button
                 key={color}
                 type="button"

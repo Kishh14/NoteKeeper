@@ -171,6 +171,10 @@ function Tasklist() {
               Add Task
             </button>
           </form>
+
+          <div className="">
+            <img src="https://media1.tenor.com/m/bMljz73hH-UAAAAd/newgirl676.gif" alt="" className="w-full h-[290px] object-fill block mx-auto my-5" />
+          </div>
         </Modal>
       )}
     </>

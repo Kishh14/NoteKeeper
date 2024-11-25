@@ -182,15 +182,19 @@ function MainDashboard({ notes, setNotes, fetchNotes }) {
         </div>
 
         <div id="notesContainer" className="flex gap-6 flex-wrap mt-7">
-          {paginatedNotes.map((note) => (
-            <NotesBox
-              key={note.$id}
-              note={note}
-              setNotes={setNotes}
-              fetchNotes={fetchNotes}
-              onClick={() => handleOpenModal(note)}
-            />
-          ))}
+          {paginatedNotes.length > 0 ? (
+            paginatedNotes.map((note) => (
+              <NotesBox
+                key={note.$id}
+                note={note}
+                setNotes={setNotes}
+                fetchNotes={fetchNotes}
+                onClick={() => handleOpenModal(note)}
+              />
+            ))
+          ) : (
+            <img className="w-1/2 block mx-auto" src="https://img.freepik.com/free-vector/no-data-concept-illustration_114360-536.jpg?t=st=1732522818~exp=1732526418~hmac=3681f9ce6d27329a4e89847625614568b04262bf435dedae839f6e51a7d3725c&w=740" />
+          )}
         </div>
 
         {/* Pagination */}
